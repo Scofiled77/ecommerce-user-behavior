@@ -2,7 +2,7 @@
 """生成基于天池 UserBehavior 数据集特征的采样数据。
 
 天池 UserBehavior 原始数据集（淘宝用户行为 2017.11.25-12.3）约 1 亿条，
-需登录天池下载。本脚本基于该数据集公开统计特征生成 50 万条采样数据，
+需登录天池下载。本脚本基于该数据集公开统计特征生成 10 万条采样数据，
 用于完整复现 PV/UV 趋势、转化漏斗、RFM 分群、复购率、品类差异等分析。
 
 字段格式与原始数据集完全一致：
@@ -21,7 +21,7 @@ import os
 NUM_USERS = 5000          # 用户数
 NUM_ITEMS = 50000         # 商品数
 NUM_CATEGORIES = 958      # 品类数（天池原始约 958 个）
-TOTAL_RECORDS = 500000    # 总行为记录数
+TOTAL_RECORDS = 100000    # 总行为记录数
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "user_behavior.csv")
 
