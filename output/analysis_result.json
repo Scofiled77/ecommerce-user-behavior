@@ -1,0 +1,710 @@
+{
+  "meta": {
+    "data_source": "天池 UserBehavior 数据集（采样）",
+    "time_range": "2017-11-25 ~ 2017-12-03",
+    "total_records": 500000,
+    "clean_dropped": {
+      "duplicate": 0,
+      "missing": 0,
+      "ts_invalid": 0,
+      "behavior_invalid": 0
+    }
+  },
+  "pv_uv": {
+    "total_pv": 500000,
+    "total_uv": 5000,
+    "avg_daily_pv": 55556.0,
+    "pv_per_user": 100.0,
+    "daily": [
+      {
+        "date": "11-25(六)",
+        "pv": 62917,
+        "uv": 4703
+      },
+      {
+        "date": "11-26(日)",
+        "pv": 62701,
+        "uv": 4701
+      },
+      {
+        "date": "11-27(一)",
+        "pv": 52184,
+        "uv": 4603
+      },
+      {
+        "date": "11-28(二)",
+        "pv": 50269,
+        "uv": 4581
+      },
+      {
+        "date": "11-29(三)",
+        "pv": 49723,
+        "uv": 4570
+      },
+      {
+        "date": "11-30(四)",
+        "pv": 50378,
+        "uv": 4555
+      },
+      {
+        "date": "12-01(五)",
+        "pv": 51527,
+        "uv": 4596
+      },
+      {
+        "date": "12-02(六)",
+        "pv": 60346,
+        "uv": 4664
+      },
+      {
+        "date": "12-03(日)",
+        "pv": 59955,
+        "uv": 4661
+      }
+    ],
+    "hourly_pv": [
+      {
+        "hour": 0,
+        "pv": 5043
+      },
+      {
+        "hour": 1,
+        "pv": 3333
+      },
+      {
+        "hour": 2,
+        "pv": 2119
+      },
+      {
+        "hour": 3,
+        "pv": 1253
+      },
+      {
+        "hour": 4,
+        "pv": 850
+      },
+      {
+        "hour": 5,
+        "pv": 1260
+      },
+      {
+        "hour": 6,
+        "pv": 3314
+      },
+      {
+        "hour": 7,
+        "pv": 8331
+      },
+      {
+        "hour": 8,
+        "pv": 16706
+      },
+      {
+        "hour": 9,
+        "pv": 22751
+      },
+      {
+        "hour": 10,
+        "pv": 27252
+      },
+      {
+        "hour": 11,
+        "pv": 32506
+      },
+      {
+        "hour": 12,
+        "pv": 35585
+      },
+      {
+        "hour": 13,
+        "pv": 29243
+      },
+      {
+        "hour": 14,
+        "pv": 24855
+      },
+      {
+        "hour": 15,
+        "pv": 24337
+      },
+      {
+        "hour": 16,
+        "pv": 25789
+      },
+      {
+        "hour": 17,
+        "pv": 28461
+      },
+      {
+        "hour": 18,
+        "pv": 31376
+      },
+      {
+        "hour": 19,
+        "pv": 34650
+      },
+      {
+        "hour": 20,
+        "pv": 37506
+      },
+      {
+        "hour": 21,
+        "pv": 39512
+      },
+      {
+        "hour": 22,
+        "pv": 36419
+      },
+      {
+        "hour": 23,
+        "pv": 27549
+      }
+    ],
+    "hourly_uv": [
+      {
+        "hour": 0,
+        "uv": 2153
+      },
+      {
+        "hour": 1,
+        "uv": 1693
+      },
+      {
+        "hour": 2,
+        "uv": 1286
+      },
+      {
+        "hour": 3,
+        "uv": 857
+      },
+      {
+        "hour": 4,
+        "uv": 675
+      },
+      {
+        "hour": 5,
+        "uv": 932
+      },
+      {
+        "hour": 6,
+        "uv": 1656
+      },
+      {
+        "hour": 7,
+        "uv": 2742
+      },
+      {
+        "hour": 8,
+        "uv": 3542
+      },
+      {
+        "hour": 9,
+        "uv": 3908
+      },
+      {
+        "hour": 10,
+        "uv": 4055
+      },
+      {
+        "hour": 11,
+        "uv": 4263
+      },
+      {
+        "hour": 12,
+        "uv": 4349
+      },
+      {
+        "hour": 13,
+        "uv": 4146
+      },
+      {
+        "hour": 14,
+        "uv": 4006
+      },
+      {
+        "hour": 15,
+        "uv": 3972
+      },
+      {
+        "hour": 16,
+        "uv": 4066
+      },
+      {
+        "hour": 17,
+        "uv": 4135
+      },
+      {
+        "hour": 18,
+        "uv": 4206
+      },
+      {
+        "hour": 19,
+        "uv": 4261
+      },
+      {
+        "hour": 20,
+        "uv": 4370
+      },
+      {
+        "hour": 21,
+        "uv": 4394
+      },
+      {
+        "hour": 22,
+        "uv": 4348
+      },
+      {
+        "hour": 23,
+        "uv": 4095
+      }
+    ]
+  },
+  "funnel": {
+    "funnel": [
+      {
+        "stage": "浏览(pv)",
+        "users": 4999,
+        "rate": 100.0
+      },
+      {
+        "stage": "收藏(fav)",
+        "users": 3712,
+        "rate": 74.25
+      },
+      {
+        "stage": "加购(cart)",
+        "users": 4130,
+        "rate": 82.62
+      },
+      {
+        "stage": "购买(buy)",
+        "users": 2729,
+        "rate": 54.59
+      }
+    ],
+    "behavior_count": {
+      "pv": 445046,
+      "fav": 18465,
+      "cart": 27593,
+      "buy": 8896
+    },
+    "pv_to_buy_rate": 2.0,
+    "cart_to_buy_rate": 32.24,
+    "fav_to_buy_rate": 48.18
+  },
+  "rfm": {
+    "total_buyers": 2729,
+    "thresholds": {
+      "R_median": 2,
+      "F_median": 2,
+      "M_median": 2
+    },
+    "segments": [
+      {
+        "segment": "重要价值用户",
+        "count": 1172,
+        "pct": 42.9
+      },
+      {
+        "segment": "重要发展用户",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "segment": "重要保持用户",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "segment": "重要挽留用户",
+        "count": 422,
+        "pct": 15.5
+      },
+      {
+        "segment": "一般价值用户",
+        "count": 377,
+        "pct": 13.8
+      },
+      {
+        "segment": "一般发展用户",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "segment": "一般保持用户",
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "segment": "一般挽留用户",
+        "count": 758,
+        "pct": 27.8
+      }
+    ],
+    "rfm_avg": {
+      "avg_R": 2.6,
+      "avg_F": 3.3,
+      "avg_M": 3.3
+    }
+  },
+  "repurchase": {
+    "total_buyers": 2729,
+    "repurchase_users": 1474,
+    "repurchase_rate": 54.01,
+    "multi_buy_users": 1549,
+    "multi_buy_rate": 56.76,
+    "buy_dist": [
+      {
+        "range": "1次",
+        "users": 1180
+      },
+      {
+        "range": "2-3次",
+        "users": 851
+      },
+      {
+        "range": "4-5次",
+        "users": 239
+      },
+      {
+        "range": "6-10次",
+        "users": 282
+      },
+      {
+        "range": "10次以上",
+        "users": 177
+      }
+    ]
+  },
+  "category": {
+    "total_categories": 958,
+    "top10_by_buy": [
+      {
+        "category_id": "1",
+        "pv": 18242,
+        "fav": 726,
+        "cart": 1124,
+        "buy": 354,
+        "total": 20446,
+        "buy_rate": 1.94
+      },
+      {
+        "category_id": "2",
+        "pv": 13342,
+        "fav": 539,
+        "cart": 821,
+        "buy": 268,
+        "total": 14970,
+        "buy_rate": 2.01
+      },
+      {
+        "category_id": "3",
+        "pv": 9835,
+        "fav": 399,
+        "cart": 624,
+        "buy": 191,
+        "total": 11049,
+        "buy_rate": 1.94
+      },
+      {
+        "category_id": "4",
+        "pv": 8023,
+        "fav": 338,
+        "cart": 504,
+        "buy": 159,
+        "total": 9024,
+        "buy_rate": 1.98
+      },
+      {
+        "category_id": "5",
+        "pv": 5824,
+        "fav": 228,
+        "cart": 388,
+        "buy": 136,
+        "total": 6576,
+        "buy_rate": 2.34
+      },
+      {
+        "category_id": "6",
+        "pv": 5388,
+        "fav": 245,
+        "cart": 346,
+        "buy": 115,
+        "total": 6094,
+        "buy_rate": 2.13
+      },
+      {
+        "category_id": "7",
+        "pv": 5265,
+        "fav": 236,
+        "cart": 347,
+        "buy": 89,
+        "total": 5937,
+        "buy_rate": 1.69
+      },
+      {
+        "category_id": "9",
+        "pv": 4800,
+        "fav": 188,
+        "cart": 289,
+        "buy": 80,
+        "total": 5357,
+        "buy_rate": 1.67
+      },
+      {
+        "category_id": "12",
+        "pv": 3818,
+        "fav": 163,
+        "cart": 264,
+        "buy": 70,
+        "total": 4315,
+        "buy_rate": 1.83
+      },
+      {
+        "category_id": "8",
+        "pv": 3293,
+        "fav": 130,
+        "cart": 221,
+        "buy": 66,
+        "total": 3710,
+        "buy_rate": 2.0
+      }
+    ],
+    "top10_by_pv": [
+      {
+        "category_id": "1",
+        "pv": 18242,
+        "buy": 354,
+        "buy_rate": 1.94
+      },
+      {
+        "category_id": "2",
+        "pv": 13342,
+        "buy": 268,
+        "buy_rate": 2.01
+      },
+      {
+        "category_id": "3",
+        "pv": 9835,
+        "buy": 191,
+        "buy_rate": 1.94
+      },
+      {
+        "category_id": "4",
+        "pv": 8023,
+        "buy": 159,
+        "buy_rate": 1.98
+      },
+      {
+        "category_id": "5",
+        "pv": 5824,
+        "buy": 136,
+        "buy_rate": 2.34
+      },
+      {
+        "category_id": "6",
+        "pv": 5388,
+        "buy": 115,
+        "buy_rate": 2.13
+      },
+      {
+        "category_id": "7",
+        "pv": 5265,
+        "buy": 89,
+        "buy_rate": 1.69
+      },
+      {
+        "category_id": "9",
+        "pv": 4800,
+        "buy": 80,
+        "buy_rate": 1.67
+      },
+      {
+        "category_id": "12",
+        "pv": 3818,
+        "buy": 70,
+        "buy_rate": 1.83
+      },
+      {
+        "category_id": "8",
+        "pv": 3293,
+        "buy": 66,
+        "buy_rate": 2.0
+      }
+    ]
+  },
+  "hourly_pattern": {
+    "hourly": [
+      {
+        "hour": 0,
+        "pv": 4473,
+        "fav": 177,
+        "cart": 307,
+        "buy": 86
+      },
+      {
+        "hour": 1,
+        "pv": 2966,
+        "fav": 136,
+        "cart": 179,
+        "buy": 52
+      },
+      {
+        "hour": 2,
+        "pv": 1879,
+        "fav": 92,
+        "cart": 116,
+        "buy": 32
+      },
+      {
+        "hour": 3,
+        "pv": 1118,
+        "fav": 55,
+        "cart": 67,
+        "buy": 13
+      },
+      {
+        "hour": 4,
+        "pv": 760,
+        "fav": 27,
+        "cart": 50,
+        "buy": 13
+      },
+      {
+        "hour": 5,
+        "pv": 1133,
+        "fav": 37,
+        "cart": 68,
+        "buy": 22
+      },
+      {
+        "hour": 6,
+        "pv": 2969,
+        "fav": 107,
+        "cart": 183,
+        "buy": 55
+      },
+      {
+        "hour": 7,
+        "pv": 7400,
+        "fav": 326,
+        "cart": 465,
+        "buy": 140
+      },
+      {
+        "hour": 8,
+        "pv": 14858,
+        "fav": 568,
+        "cart": 969,
+        "buy": 311
+      },
+      {
+        "hour": 9,
+        "pv": 20307,
+        "fav": 848,
+        "cart": 1186,
+        "buy": 410
+      },
+      {
+        "hour": 10,
+        "pv": 24267,
+        "fav": 1007,
+        "cart": 1505,
+        "buy": 473
+      },
+      {
+        "hour": 11,
+        "pv": 28932,
+        "fav": 1175,
+        "cart": 1841,
+        "buy": 558
+      },
+      {
+        "hour": 12,
+        "pv": 31629,
+        "fav": 1356,
+        "cart": 1949,
+        "buy": 651
+      },
+      {
+        "hour": 13,
+        "pv": 26066,
+        "fav": 1057,
+        "cart": 1583,
+        "buy": 537
+      },
+      {
+        "hour": 14,
+        "pv": 22169,
+        "fav": 921,
+        "cart": 1341,
+        "buy": 424
+      },
+      {
+        "hour": 15,
+        "pv": 21756,
+        "fav": 893,
+        "cart": 1284,
+        "buy": 404
+      },
+      {
+        "hour": 16,
+        "pv": 22948,
+        "fav": 925,
+        "cart": 1500,
+        "buy": 416
+      },
+      {
+        "hour": 17,
+        "pv": 25276,
+        "fav": 1071,
+        "cart": 1572,
+        "buy": 542
+      },
+      {
+        "hour": 18,
+        "pv": 27831,
+        "fav": 1202,
+        "cart": 1777,
+        "buy": 566
+      },
+      {
+        "hour": 19,
+        "pv": 30894,
+        "fav": 1239,
+        "cart": 1901,
+        "buy": 616
+      },
+      {
+        "hour": 20,
+        "pv": 33353,
+        "fav": 1391,
+        "cart": 2089,
+        "buy": 673
+      },
+      {
+        "hour": 21,
+        "pv": 35246,
+        "fav": 1457,
+        "cart": 2100,
+        "buy": 709
+      },
+      {
+        "hour": 22,
+        "pv": 32384,
+        "fav": 1363,
+        "cart": 2012,
+        "buy": 660
+      },
+      {
+        "hour": 23,
+        "pv": 24432,
+        "fav": 1035,
+        "cart": 1549,
+        "buy": 533
+      }
+    ],
+    "peak_pv_hour": 21,
+    "peak_buy_hour": 21
+  }
+}
